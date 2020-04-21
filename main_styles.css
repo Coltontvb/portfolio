@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+nav {
+    margin: 0rem 1rem;
+
+}
+
+header {
+    text-align: center;
+    margin: 0rem 1rem;
+    padding: 0;
+}
+
+section {
+    margin: 0rem 1rem;
+    border-radius: 10%;
+    border: solid black 1px;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.subtitle {
+    color: rgb(255, 187, 0);/**/
+}
+
+/* Nav Styes */
+.nav-pill {
+    display: inline-block;
+}
+
+.nav-pill a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9)
+}
+.nav-pill a:hover {
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+    color: rgb(255, 187, 0);
+}
+
+/*Row Styles*/
+.landing-bkg {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-evenly;
+    justify-content: center;
+    background-image: url('https://i.postimg.cc/7YCjWQ2N/stock-image-camera.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: whitesmoke;
+    height: 95vh;
+    text-align: center;
+    width: 100%;
+}
+
+/*Overlay Text*/
+.open-text {
+    font-family: 'Righteous', cursive !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(156, 156, 156, 0.9), 
+    0 2px 5px rgba(0, 0, 0,.9);
+    background-color: rgba(255,255,255,.4);
+    height: 95vh;
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/*Flex layout */
+.col-wrapper{
+    display: flex;
+    flex-wrap: row wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+div#show.basic-textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-content: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 2rem;
+    min-height: 500px;
+}
+
+
+.footer-col {
+    border-top: solid gray 1px;
+    text-align: center;
+    width:33.3333%;
+    color: rgb(255, 187, 0);
+    float: right;
+}
+
+/*Javascript scroll arrow*/
+.scroll-arrow {
+    align-self: center;
+    width: 25%;
+    font-size: 6rem;
+}
+.scroll-arrow a:hover{
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+    color: rgb(255, 187, 0);
+}
+
+.scroll-arrow a {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9), 
+    0 2px 5px rgba(255, 255, 255, 0.9);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/*JS Classes for slider*/
+#show{
+    display: block;
+}
+
+#hide{
+    display: none;
+}
+
+
+/*Basic media queries for smaller devices*/
+@media screen and (max-width: 768px){
+    img {
+        display: none;
+    }
+}

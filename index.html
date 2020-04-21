@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colton Van Bastelaere - Portfolio</title>
+    <link rel="stylesheet" href="main_styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-pill"><a href="https://github.com/Coltontvb">GitHub</a></div>
+        <div class="nav-pill"><a href="https://codepen.io/coltontvb">Codepen</a></div>
+    </nav>
+    <header>
+    </header>
+    <section>
+        <div class="landing-bkg">
+            <div class="open-text">
+                <h5 class="subtitle">&ltp&gt Hello, World! &lt/p&gt</h5>
+                <h2>Colton Van Bastelaere</h2>
+                <h5 class="subtitle">Web Developer</h5>
+            </div>
+        </div>   
+    </section>
+    <section>
+        <div class="col-wrapper" id="slider">
+            <!--basic-textbox will hide/show through JS-->
+            <div class="basic-textbox" id="about">
+                <h3 class="subtitle" id="subtitle">About Me</h3>
+                <p id="textbox">I am in the process of recieving my 2 year diploma for computer programming.
+                I began developing websites and other programming products for myself, independant businesses and freelancers in 2018, and began my formal education in 2019, and I am due to graduate in 2021!</p>
+                <img src="asset/profile.png">
+            </div>
+            <div class="basic-textbox" id="skills">
+                <h3 class="subtitle" id="subtitle">Skills</h3>
+                <p id="textbox">
+                    <ul class="skills-list">
+                        <li>HTML/CSS</li>
+                        <li>Vanilla JS</li>
+                        <li>SQL and NoSQL (T-SQL, mongoDB)</li>
+                        <li>OOP with C# and VB.net</li>
+                        <li>UI/UX Testing and Development</li>
+                        <li>IT Troubleshooting</li>
+                        <li>Customer Service</li>
+                        <li>Photography</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="basic-textbox" id="contact">
+                <h3 class="subtitle" id="subtitle">Contact</h3>
+                <p id="textbox">
+                    <ul class="contact-list">
+                        <li>Phone: 1-800-123-4567</li>
+                        <li>Email: me@mail.com</li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/colton-van-bastelaere-0751b6129/">Profile</a></li>  
+                    </ul>
+                </p>
+            </div>
+            <div class="scroll-arrow">
+                <a id="nextSlideArrow" onclick="nextSlide()">></a>
+            </div>
+        </div>
+        <div class="row-wrapper">
+            <footer>
+                <a href="https://www.linkedin.com/in/colton-van-bastelaere-0751b6129/"><h4 class="subtitle, footer-col">LinkedIn</h4></a>
+                <a href="https://github.com/Coltontvb"><h4 class="subtitle, footer-col">Github</h4></a>
+                <a href="https://codepen.io/coltontvb"><h4 class="subtitle, footer-col">Codepen</h4></a>
+            </footer>              
+        </div>         
+    </section>
+    <!--My Custom JS-->
+    <script src="app.js"></script>
+</body>
+</html>
