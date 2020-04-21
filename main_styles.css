@@ -160,4 +160,9 @@ div#show.basic-textbox{
     img {
         display: none;
     }
+
+    .open-text {
+        height: 100vh;
+        font-size: 1.1rem;
+    }
 }
