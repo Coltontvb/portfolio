@@ -9,7 +9,7 @@ aboutContent.setAttribute(`id`, `show`);
 skillsContent.setAttribute(`id`, `hide`);
 
 //Counter to check current visibile node
-let indexCount = 0;
+let indexCount = 1;
 
 //Changes hide/show css styles
 function nextSlide(){
